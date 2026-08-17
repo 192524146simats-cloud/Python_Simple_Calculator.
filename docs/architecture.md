@@ -25,3 +25,21 @@ User Input → Calculator Logic → Result
 - `tests/test_calculator.py` – Unit tests
 - `docs/architecture.md` – System architecture documentation
 - `README.md` – Project information
+
+
+
+# Software Architecture and Component Design
+
+## Architecture
+
+User Input → Calculator Logic → Result
+
+## Components
+
+- User Interface: accepts numbers and operations.
+- Calculator Module: performs addition, subtraction, multiplication and division.
+- Test Module: verifies calculator functions using pytest.
+
+## Testing
+
+The calculator functions are tested using the test_calculator.py file.
